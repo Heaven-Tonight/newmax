@@ -22,9 +22,8 @@ const getKazanWBWareHouseData = async (article) => {
     const { products } = data.data;
     return buildResultData(products, id);
   } catch (error) {
-    console.error('ERROR!!!', error.message);
-    //throw error;
-  };
+    console.error('Network Error, try again', error.message);
+  }
 };
 
 module.exports = getKazanWBWareHouseData;

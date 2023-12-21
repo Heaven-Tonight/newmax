@@ -32,7 +32,7 @@ async function getCardDetailsAddress(url) {
   } finally {
     await browser.close();
   }
-};
+}
 
 module.exports = getCardDetailsAddress;
 
