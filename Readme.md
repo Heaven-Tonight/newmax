@@ -6,7 +6,7 @@
 
 ```
 https://github.com/Heaven-Tonight/newmax.git
-npm install
+npm install -g
 ```
 
 Запустить:
@@ -20,7 +20,7 @@ Linux:
 ```
 node bin/stock.js <артикул>
 ```
-Может понадобиться установка зависимостей ниже для корректоного запуска:
+Может понадобиться установка зависимостей ниже для корректоного запуска на Linux:
 ```
 sudo apt-get -y --no-install-recommends install 
 libxrandr2 libasound2 libatk1.0-0 libatk-bridge2.0-0 libx11-xcb1 libxcb-dri3-0 libxcomposite1 libxcursor1 libxdamage1 libcups2 libdrm2 libgbm1 libgtk-3-0
