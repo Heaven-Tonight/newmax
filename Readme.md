@@ -3,10 +3,11 @@
 Как использовать:
 
 Скачать и установить зависимости:
-
 ```
 https://github.com/Heaven-Tonight/newmax.git
-npm install -g
+```
+```
+npm install
 ```
 
 Запустить:
@@ -20,6 +21,17 @@ Linux:
 ```
 node bin/stock.js <артикул>
 ```
+или запуск с помощью npx:
+```
+npx stock <артикул>
+```
+запуск при глобальной установке зависимостей:
+```
+npm install -g (глобальная установка)
+stock <артикул>
+```
+
+
 Может понадобиться установка зависимостей ниже для корректоного запуска на Linux:
 ```
 sudo apt-get -y --no-install-recommends install 
